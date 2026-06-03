@@ -121,22 +121,21 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=diandracahya&show_icons=true&theme=transparent&hide_border=true&title_color=00d4ff&icon_color=00d4ff&text_color=a0aec0&bg_color=0d1117&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diandracahya&layout=compact&theme=transparent&hide_border=true&title_color=00d4ff&text_color=a0aec0&bg_color=0d1117&langs_count=8" />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=diandracahya&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180em" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diandracahya&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180em" />
 </div>
 
+<br/>
+
 <div align="center">
-
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=diandracahya&theme=transparent&hide_border=true&stroke=00d4ff&ring=00d4ff&fire=ffd700&currStreakNum=ffffff&sideNums=a0aec0&currStreakLabel=00d4ff&sideLabels=a0aec0&dates=a0aec0" />
-
+  <img src="https://streak-stats.demolab.com?user=diandracahya&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" width="70%" />
 </div>
 
+<br/>
+
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=diandracahya&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffd700&area=true&hide_border=true&area_color=00d4ff" width="95%"/>
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=diandracahya&theme=tokyo-night&hide_border=true&area=true" width="95%" />
 </div>
 
 ---
@@ -145,7 +144,13 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=diandracahya&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7&rank=SSS,SS,S,AAA,AA,A,B" width="100%" />
+<img src="https://github-profile-trophy.vercel.app/?username=diandracahya&theme=tokyonight&no-frame=true&no-bg=false&margin-w=8&column=4" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=diandracahya&theme=tokyonight&no-frame=true&no-bg=false&margin-w=8&column=3&row=1&rank=B,C,SECRET" />
 
 </div>
 
@@ -203,7 +208,7 @@ class DiandraRightNow:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/diandracahya/diandracahya/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/diandracahya/diandracahya/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/diandracahya/diandracahya/output/github-snake.svg" />
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/diandracahya/diandracahya/output/github-snake.svg" />
 </picture>
 
 </div>
@@ -216,30 +221,3 @@ class DiandraRightNow:
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer&text=Thanks+for+visiting!+⭐+Star+something+if+you+like+it&fontSize=16&fontColor=a0aec0&animation=twinkling&fontAlignY=65" />
 
 </div>
-
-<!-- ===== SNAKE ANIMATION WORKFLOW =====
-To enable the snake animation, create a GitHub Actions file at:
-.github/workflows/snake.yml
-
-With content:
-name: Generate Snake
-on:
-  schedule: [{ cron: "0 0 * * *" }]
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: diandracahya
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-===== END ===== -->
